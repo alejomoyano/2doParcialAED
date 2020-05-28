@@ -80,7 +80,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/main.cpp">
+		<Unit filename="C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/code/Evento.cpp">
+			<Option target="2do_Parcial"/>
+		</Unit>
+		<Unit filename="C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/code/Planificador.cpp">
+			<Option target="2do_Parcial"/>
+		</Unit>
+		<Unit filename="C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/code/Reloj.cpp">
+			<Option target="2do_Parcial"/>
+		</Unit>
+		<Unit filename="C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/code/main.cpp">
+			<Option target="2do_Parcial"/>
+		</Unit>
+		<Unit filename="C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Evento.h">
+			<Option target="2do_Parcial"/>
+		</Unit>
+		<Unit filename="C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Planificador.h">
+			<Option target="2do_Parcial"/>
+		</Unit>
+		<Unit filename="C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Reloj.h">
 			<Option target="2do_Parcial"/>
 		</Unit>
 		<Unit filename="C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/CMakeLists.txt">

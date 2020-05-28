@@ -73,12 +73,12 @@ clean: CMakeFiles/2do_Parcial.dir/clean
 CMakeFiles/2do_Parcial.dir/all:
 	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/depend
 	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target 2do_Parcial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5 "Built target 2do_Parcial"
 .PHONY : CMakeFiles/2do_Parcial.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2do_Parcial.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\cmake-build-debug\CMakeFiles" 5
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/2do_Parcial.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/2do_Parcial.dir/rule

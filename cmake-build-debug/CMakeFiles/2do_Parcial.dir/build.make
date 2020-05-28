@@ -56,32 +56,77 @@ include CMakeFiles/2do_Parcial.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/2do_Parcial.dir/flags.make
 
-CMakeFiles/2do_Parcial.dir/main.cpp.obj: CMakeFiles/2do_Parcial.dir/flags.make
-CMakeFiles/2do_Parcial.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2do_Parcial.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\2do_Parcial.dir\main.cpp.obj -c "C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\main.cpp"
+CMakeFiles/2do_Parcial.dir/code/Evento.cpp.obj: CMakeFiles/2do_Parcial.dir/flags.make
+CMakeFiles/2do_Parcial.dir/code/Evento.cpp.obj: ../code/Evento.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2do_Parcial.dir/code/Evento.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\2do_Parcial.dir\code\Evento.cpp.obj -c "C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\code\Evento.cpp"
 
-CMakeFiles/2do_Parcial.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2do_Parcial.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\main.cpp" > CMakeFiles\2do_Parcial.dir\main.cpp.i
+CMakeFiles/2do_Parcial.dir/code/Evento.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2do_Parcial.dir/code/Evento.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\code\Evento.cpp" > CMakeFiles\2do_Parcial.dir\code\Evento.cpp.i
 
-CMakeFiles/2do_Parcial.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2do_Parcial.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\main.cpp" -o CMakeFiles\2do_Parcial.dir\main.cpp.s
+CMakeFiles/2do_Parcial.dir/code/Evento.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2do_Parcial.dir/code/Evento.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\code\Evento.cpp" -o CMakeFiles\2do_Parcial.dir\code\Evento.cpp.s
+
+CMakeFiles/2do_Parcial.dir/code/Planificador.cpp.obj: CMakeFiles/2do_Parcial.dir/flags.make
+CMakeFiles/2do_Parcial.dir/code/Planificador.cpp.obj: ../code/Planificador.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/2do_Parcial.dir/code/Planificador.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\2do_Parcial.dir\code\Planificador.cpp.obj -c "C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\code\Planificador.cpp"
+
+CMakeFiles/2do_Parcial.dir/code/Planificador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2do_Parcial.dir/code/Planificador.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\code\Planificador.cpp" > CMakeFiles\2do_Parcial.dir\code\Planificador.cpp.i
+
+CMakeFiles/2do_Parcial.dir/code/Planificador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2do_Parcial.dir/code/Planificador.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\code\Planificador.cpp" -o CMakeFiles\2do_Parcial.dir\code\Planificador.cpp.s
+
+CMakeFiles/2do_Parcial.dir/code/Reloj.cpp.obj: CMakeFiles/2do_Parcial.dir/flags.make
+CMakeFiles/2do_Parcial.dir/code/Reloj.cpp.obj: ../code/Reloj.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/2do_Parcial.dir/code/Reloj.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\2do_Parcial.dir\code\Reloj.cpp.obj -c "C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\code\Reloj.cpp"
+
+CMakeFiles/2do_Parcial.dir/code/Reloj.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2do_Parcial.dir/code/Reloj.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\code\Reloj.cpp" > CMakeFiles\2do_Parcial.dir\code\Reloj.cpp.i
+
+CMakeFiles/2do_Parcial.dir/code/Reloj.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2do_Parcial.dir/code/Reloj.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\code\Reloj.cpp" -o CMakeFiles\2do_Parcial.dir\code\Reloj.cpp.s
+
+CMakeFiles/2do_Parcial.dir/code/main.cpp.obj: CMakeFiles/2do_Parcial.dir/flags.make
+CMakeFiles/2do_Parcial.dir/code/main.cpp.obj: ../code/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/2do_Parcial.dir/code/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\2do_Parcial.dir\code\main.cpp.obj -c "C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\code\main.cpp"
+
+CMakeFiles/2do_Parcial.dir/code/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2do_Parcial.dir/code/main.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\code\main.cpp" > CMakeFiles\2do_Parcial.dir\code\main.cpp.i
+
+CMakeFiles/2do_Parcial.dir/code/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2do_Parcial.dir/code/main.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\code\main.cpp" -o CMakeFiles\2do_Parcial.dir\code\main.cpp.s
 
 # Object files for target 2do_Parcial
 2do_Parcial_OBJECTS = \
-"CMakeFiles/2do_Parcial.dir/main.cpp.obj"
+"CMakeFiles/2do_Parcial.dir/code/Evento.cpp.obj" \
+"CMakeFiles/2do_Parcial.dir/code/Planificador.cpp.obj" \
+"CMakeFiles/2do_Parcial.dir/code/Reloj.cpp.obj" \
+"CMakeFiles/2do_Parcial.dir/code/main.cpp.obj"
 
 # External object files for target 2do_Parcial
 2do_Parcial_EXTERNAL_OBJECTS =
 
-2do_Parcial.exe: CMakeFiles/2do_Parcial.dir/main.cpp.obj
+2do_Parcial.exe: CMakeFiles/2do_Parcial.dir/code/Evento.cpp.obj
+2do_Parcial.exe: CMakeFiles/2do_Parcial.dir/code/Planificador.cpp.obj
+2do_Parcial.exe: CMakeFiles/2do_Parcial.dir/code/Reloj.cpp.obj
+2do_Parcial.exe: CMakeFiles/2do_Parcial.dir/code/main.cpp.obj
 2do_Parcial.exe: CMakeFiles/2do_Parcial.dir/build.make
 2do_Parcial.exe: CMakeFiles/2do_Parcial.dir/linklibs.rsp
 2do_Parcial.exe: CMakeFiles/2do_Parcial.dir/objects1.rsp
 2do_Parcial.exe: CMakeFiles/2do_Parcial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 2do_Parcial.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\alejo\Documents\Facultad\AyED\2do Parcial\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable 2do_Parcial.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\2do_Parcial.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

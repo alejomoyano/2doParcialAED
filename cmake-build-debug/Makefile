@@ -122,32 +122,113 @@ depend:
 	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/build
 .PHONY : 2do_Parcial/fast
 
-main.obj: main.cpp.obj
+code/Evento.obj: code/Evento.cpp.obj
 
-.PHONY : main.obj
+.PHONY : code/Evento.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+code/Evento.cpp.obj:
+	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/Evento.cpp.obj
+.PHONY : code/Evento.cpp.obj
 
-main.i: main.cpp.i
+code/Evento.i: code/Evento.cpp.i
 
-.PHONY : main.i
+.PHONY : code/Evento.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/main.cpp.i
-.PHONY : main.cpp.i
+code/Evento.cpp.i:
+	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/Evento.cpp.i
+.PHONY : code/Evento.cpp.i
 
-main.s: main.cpp.s
+code/Evento.s: code/Evento.cpp.s
 
-.PHONY : main.s
+.PHONY : code/Evento.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/main.cpp.s
-.PHONY : main.cpp.s
+code/Evento.cpp.s:
+	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/Evento.cpp.s
+.PHONY : code/Evento.cpp.s
+
+code/Planificador.obj: code/Planificador.cpp.obj
+
+.PHONY : code/Planificador.obj
+
+# target to build an object file
+code/Planificador.cpp.obj:
+	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/Planificador.cpp.obj
+.PHONY : code/Planificador.cpp.obj
+
+code/Planificador.i: code/Planificador.cpp.i
+
+.PHONY : code/Planificador.i
+
+# target to preprocess a source file
+code/Planificador.cpp.i:
+	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/Planificador.cpp.i
+.PHONY : code/Planificador.cpp.i
+
+code/Planificador.s: code/Planificador.cpp.s
+
+.PHONY : code/Planificador.s
+
+# target to generate assembly for a file
+code/Planificador.cpp.s:
+	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/Planificador.cpp.s
+.PHONY : code/Planificador.cpp.s
+
+code/Reloj.obj: code/Reloj.cpp.obj
+
+.PHONY : code/Reloj.obj
+
+# target to build an object file
+code/Reloj.cpp.obj:
+	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/Reloj.cpp.obj
+.PHONY : code/Reloj.cpp.obj
+
+code/Reloj.i: code/Reloj.cpp.i
+
+.PHONY : code/Reloj.i
+
+# target to preprocess a source file
+code/Reloj.cpp.i:
+	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/Reloj.cpp.i
+.PHONY : code/Reloj.cpp.i
+
+code/Reloj.s: code/Reloj.cpp.s
+
+.PHONY : code/Reloj.s
+
+# target to generate assembly for a file
+code/Reloj.cpp.s:
+	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/Reloj.cpp.s
+.PHONY : code/Reloj.cpp.s
+
+code/main.obj: code/main.cpp.obj
+
+.PHONY : code/main.obj
+
+# target to build an object file
+code/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/main.cpp.obj
+.PHONY : code/main.cpp.obj
+
+code/main.i: code/main.cpp.i
+
+.PHONY : code/main.i
+
+# target to preprocess a source file
+code/main.cpp.i:
+	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/main.cpp.i
+.PHONY : code/main.cpp.i
+
+code/main.s: code/main.cpp.s
+
+.PHONY : code/main.s
+
+# target to generate assembly for a file
+code/main.cpp.s:
+	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/main.cpp.s
+.PHONY : code/main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +239,18 @@ help:
 	@echo ... 2do_Parcial
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... code/Evento.obj
+	@echo ... code/Evento.i
+	@echo ... code/Evento.s
+	@echo ... code/Planificador.obj
+	@echo ... code/Planificador.i
+	@echo ... code/Planificador.s
+	@echo ... code/Reloj.obj
+	@echo ... code/Reloj.i
+	@echo ... code/Reloj.s
+	@echo ... code/main.obj
+	@echo ... code/main.i
+	@echo ... code/main.s
 .PHONY : help
 
 

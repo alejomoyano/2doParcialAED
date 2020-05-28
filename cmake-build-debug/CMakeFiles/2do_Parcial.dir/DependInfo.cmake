@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/main.cpp" "C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/cmake-build-debug/CMakeFiles/2do_Parcial.dir/main.cpp.obj"
+  "C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/code/Evento.cpp" "C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/cmake-build-debug/CMakeFiles/2do_Parcial.dir/code/Evento.cpp.obj"
+  "C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/code/Planificador.cpp" "C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/cmake-build-debug/CMakeFiles/2do_Parcial.dir/code/Planificador.cpp.obj"
+  "C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/code/Reloj.cpp" "C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/cmake-build-debug/CMakeFiles/2do_Parcial.dir/code/Reloj.cpp.obj"
+  "C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/code/main.cpp" "C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/cmake-build-debug/CMakeFiles/2do_Parcial.dir/code/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
