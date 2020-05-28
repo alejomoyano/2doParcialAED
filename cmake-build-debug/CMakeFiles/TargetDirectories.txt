@@ -1,0 +1,3 @@
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/cmake-build-debug/CMakeFiles/2do_Parcial.dir
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/cmake-build-debug/CMakeFiles/rebuild_cache.dir

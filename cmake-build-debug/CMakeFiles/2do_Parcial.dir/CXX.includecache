@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/main.cpp
+iostream
+-
+iomanip
+-
+ctime
+-
+sstream
+-
+string
+-
+unistd.h
+-
+stdlib.h
+-
+fstream
+-
+
