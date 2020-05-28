@@ -109,7 +109,7 @@ public:
     }
 
     void lector();//lee el archivo y obtiene lo necesario para instanciar los relojes
-    void agregarReloj(bool per,string nombre,int retardo);
+    void agregarReloj(bool per,string nombre,int retardo);//agrega el reloj a la lista
 //    Evento getProximoEvento(): //TODO
 //    void run(); //TODO
 };
@@ -135,25 +135,25 @@ void Planificador::lector() {
 
         string nombre = myText.substr(0,pos);//extrae el nombre
         myText.erase(0,pos+11);//elimina el nombre y el tipo del string
-        int retardo = atoi(myText.c_str());
+        int retardo = atoi(myText.c_str());//pasa de string a int
 
-        agregarReloj(per, nombre, retardo);
+        agregarReloj(per, nombre, retardo);//agrega el reloj a la lista
 
     }
 }
 
 void Planificador::agregarReloj(bool per,string nombre,int retardo) {
-    if(per){
+    if(per){  //lo guarda como periodico si lo es
         Reloj r(nombre,retardo,!per);
         relojes.push_back(r);
     }
-    else{
+    else{//lo guarda como aleatorio
         Reloj r(nombre,retardo,per);
         relojes.push_back(r);
     }
 }
 
-/* TODO LOS PLANIFICADORES QUE GUARDEN Y ORDENEN LOS EVVENTOS*/
+/* TODO->LOS PLANIFICADORES QUE GUARDEN Y ORDENEN LOS EVENTOS*/
 
 int main(){
 
