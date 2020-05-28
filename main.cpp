@@ -110,8 +110,8 @@ public:
 
     void lector();//lee el archivo y obtiene lo necesario para instanciar los relojes
     void agregarReloj(bool per,string nombre,int retardo);
-    Evento getProximoEvento(): //TODO
-    void run(); //TODO
+//    Evento getProximoEvento(): //TODO
+//    void run(); //TODO
 };
 
 void Planificador::lector() {
@@ -153,10 +153,9 @@ void Planificador::agregarReloj(bool per,string nombre,int retardo) {
     }
 }
 
-
+/* TODO LOS PLANIFICADORES QUE GUARDEN Y ORDENEN LOS EVVENTOS*/
 
 int main(){
-
 
 
 }
