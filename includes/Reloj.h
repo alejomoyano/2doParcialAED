@@ -6,6 +6,8 @@
 #define INC_2DO_PARCIAL_RELOJ_H
 
 #include "Evento.h"
+#include "Lista.h"
+#include <list>
 
 using namespace std;
 
@@ -15,6 +17,7 @@ class Reloj{
     int repeticion;// puede ser el numero que indique el periodo de repeticion o el maximo en el caso de un reloj random
     bool aleatorio;//true si es aleatorio
     list<Evento> lista;
+
 public:
     Reloj(string nombre, int repeticion, bool aleatorio){
         this->nombre=nombre;
@@ -26,6 +29,7 @@ public:
     void genEventosRandom();//genera eventos de forma random
     int getSeconds(){return seconds;};
     bool getTipo(){return aleatorio;};
+    list<Evento> getLista();
 
 private:
     string getDate(int seg);

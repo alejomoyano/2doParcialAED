@@ -5,19 +5,22 @@
 #ifndef INC_2DO_PARCIAL_EVENTO_H
 #define INC_2DO_PARCIAL_EVENTO_H
 
+#include <string>
+
 using namespace std;
 
 class Evento{
-    string date; //guarda al fecha en la que fue ejecutado
+    int date; //guarda al fecha en la que fue ejecutado
     int id; //id del evento
 public:
-    Evento(string date,int id){
+    Evento();
+    Evento(int date,int id){
         this->date = date;
         this->id = id;
     };
-    string getDate();
+//    string getDate();
     int getNumero();
-    void ejecutar(string reloj);
+//    void ejecutar(string reloj);
 };
 
 

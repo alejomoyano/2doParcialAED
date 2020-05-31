@@ -149,6 +149,33 @@ code/Evento.cpp.s:
 	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/Evento.cpp.s
 .PHONY : code/Evento.cpp.s
 
+code/Lista.obj: code/Lista.cpp.obj
+
+.PHONY : code/Lista.obj
+
+# target to build an object file
+code/Lista.cpp.obj:
+	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/Lista.cpp.obj
+.PHONY : code/Lista.cpp.obj
+
+code/Lista.i: code/Lista.cpp.i
+
+.PHONY : code/Lista.i
+
+# target to preprocess a source file
+code/Lista.cpp.i:
+	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/Lista.cpp.i
+.PHONY : code/Lista.cpp.i
+
+code/Lista.s: code/Lista.cpp.s
+
+.PHONY : code/Lista.s
+
+# target to generate assembly for a file
+code/Lista.cpp.s:
+	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/Lista.cpp.s
+.PHONY : code/Lista.cpp.s
+
 code/Planificador.obj: code/Planificador.cpp.obj
 
 .PHONY : code/Planificador.obj
@@ -175,6 +202,33 @@ code/Planificador.s: code/Planificador.cpp.s
 code/Planificador.cpp.s:
 	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/Planificador.cpp.s
 .PHONY : code/Planificador.cpp.s
+
+code/PlanificadorLista.obj: code/PlanificadorLista.cpp.obj
+
+.PHONY : code/PlanificadorLista.obj
+
+# target to build an object file
+code/PlanificadorLista.cpp.obj:
+	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/PlanificadorLista.cpp.obj
+.PHONY : code/PlanificadorLista.cpp.obj
+
+code/PlanificadorLista.i: code/PlanificadorLista.cpp.i
+
+.PHONY : code/PlanificadorLista.i
+
+# target to preprocess a source file
+code/PlanificadorLista.cpp.i:
+	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/PlanificadorLista.cpp.i
+.PHONY : code/PlanificadorLista.cpp.i
+
+code/PlanificadorLista.s: code/PlanificadorLista.cpp.s
+
+.PHONY : code/PlanificadorLista.s
+
+# target to generate assembly for a file
+code/PlanificadorLista.cpp.s:
+	$(MAKE) -f CMakeFiles\2do_Parcial.dir\build.make CMakeFiles/2do_Parcial.dir/code/PlanificadorLista.cpp.s
+.PHONY : code/PlanificadorLista.cpp.s
 
 code/Reloj.obj: code/Reloj.cpp.obj
 
@@ -242,9 +296,15 @@ help:
 	@echo ... code/Evento.obj
 	@echo ... code/Evento.i
 	@echo ... code/Evento.s
+	@echo ... code/Lista.obj
+	@echo ... code/Lista.i
+	@echo ... code/Lista.s
 	@echo ... code/Planificador.obj
 	@echo ... code/Planificador.i
 	@echo ... code/Planificador.s
+	@echo ... code/PlanificadorLista.obj
+	@echo ... code/PlanificadorLista.i
+	@echo ... code/PlanificadorLista.s
 	@echo ... code/Reloj.obj
 	@echo ... code/Reloj.i
 	@echo ... code/Reloj.s

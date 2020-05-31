@@ -1,10 +1,10 @@
 #include <iostream>
 #include <sstream>
 #include <string>
-#include <list>
 
 #include "../includes/Reloj.h"
 #include "../includes/Evento.h"
+#include "../includes/Lista.h"
 
 using namespace std;
 
@@ -21,21 +21,21 @@ string Reloj::getDate(int seg){//genera el date y lo devuelve
 };
 
 Evento Reloj::genEvento(int id,  int seg) {
-    Evento e(getDate(seg),id);//instancia un evento y le pasa el date ya calculado y su id
+    Evento e(seg,id);//instancia un evento y le pasa el date ya calculado y su id
     return  e;
 };
 
 void Reloj::genEventoPeriodico() {
     int id = 0;
-    int seg=seconds;
+    int seg=0;
     while (true) {
         seg+=repeticion; //aumenta la hora en funcion de el campo repeticion
         Evento e = genEvento(id,seg);//genera un evento
-        lista.push_back(e);//los mete en la lista
+        lista.push_front(e);//los mete en la lista
         id++;
         if (id == 50) { break; }
     }
-}
+};
 
 void Reloj::genEventosRandom(){
     int id = 0;
@@ -44,8 +44,12 @@ void Reloj::genEventosRandom(){
         int ran = rand() % repeticion + 1; // genera numeros random desde 1 a repeticion(maximo)
         seg+=ran; //aumenta la hora en funcion de el campo repeticion
         Evento e = genEvento(id,seg);//genera un evento
-        lista.push_back(e);//los mete en la lista
+        lista.push_front(e);//los mete en la lista
         id++;
         if (id == 50) { break; }
     }
-}
+};
+
+list<Evento> Reloj::getLista(){
+    return lista;
+};

@@ -83,7 +83,13 @@
 		<Unit filename="C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/code/Evento.cpp">
 			<Option target="2do_Parcial"/>
 		</Unit>
+		<Unit filename="C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/code/Lista.cpp">
+			<Option target="2do_Parcial"/>
+		</Unit>
 		<Unit filename="C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/code/Planificador.cpp">
+			<Option target="2do_Parcial"/>
+		</Unit>
+		<Unit filename="C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/code/PlanificadorLista.cpp">
 			<Option target="2do_Parcial"/>
 		</Unit>
 		<Unit filename="C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/code/Reloj.cpp">
@@ -95,7 +101,13 @@
 		<Unit filename="C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Evento.h">
 			<Option target="2do_Parcial"/>
 		</Unit>
+		<Unit filename="C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Lista.h">
+			<Option target="2do_Parcial"/>
+		</Unit>
 		<Unit filename="C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Planificador.h">
+			<Option target="2do_Parcial"/>
+		</Unit>
+		<Unit filename="C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/PlanificadorLista.h">
 			<Option target="2do_Parcial"/>
 		</Unit>
 		<Unit filename="C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Reloj.h">

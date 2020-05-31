@@ -6,23 +6,51 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/main.cpp
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/code/main.cpp
 iostream
--
-iomanip
--
-ctime
--
-sstream
--
-string
--
-unistd.h
--
-stdlib.h
 -
 fstream
 -
+iomanip
+-
+list
+-
+../includes/Evento.h
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Evento.h
+../includes/Reloj.h
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Reloj.h
+../includes/Planificador.h
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Planificador.h
+../includes/PlanificadorLista.h
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/PlanificadorLista.h
+../includes/Lista.h
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Lista.h
+
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Evento.h
+string
+-
+
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Lista.h
+
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Planificador.h
+list
+-
+Reloj.h
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Reloj.h
+Evento.h
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Evento.h
+
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/PlanificadorLista.h
+Planificador.h
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Planificador.h
+Reloj.h
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Reloj.h
+
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Reloj.h
+Evento.h
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Evento.h
+Lista.h
+C:/Users/alejo/Documents/Facultad/AyED/2do Parcial/includes/Lista.h
 list
 -
 
